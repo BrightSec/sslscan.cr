@@ -1,4 +1,4 @@
-# sslscan.cr [![CI](https://github.com/NeuraLegion/sslscan.cr/actions/workflows/ci.yml/badge.svg)](https://github.com/NeuraLegion/sslscan.cr/actions/workflows/ci.yml) [![Releases](https://img.shields.io/github/release/NeuraLegion/sslscan.cr.svg)](https://github.com/NeuraLegion/sslscan.cr/releases) [![License](https://img.shields.io/github/license/NeuraLegion/sslscan.cr.svg)](https://github.com/NeuraLegion/sslscan.cr/blob/master/LICENSE)
+# sslscan.cr [![CI](https://github.com/BrightSec/sslscan.cr/actions/workflows/ci.yml/badge.svg)](https://github.com/BrightSec/sslscan.cr/actions/workflows/ci.yml) [![Releases](https://img.shields.io/github/release/BrightSec/sslscan.cr.svg)](https://github.com/BrightSec/sslscan.cr/releases) [![License](https://img.shields.io/github/license/BrightSec/sslscan.cr.svg)](https://github.com/BrightSec/sslscan.cr/blob/master/LICENSE)
 
 Crystal shard wrapping [sslscan](https://github.com/rbsec/sslscan) (v2) utility.
 
@@ -9,7 +9,7 @@ Crystal shard wrapping [sslscan](https://github.com/rbsec/sslscan) (v2) utility.
    ```yaml
    dependencies:
      sslscan:
-       github: NeuraLegion/sslscan.cr
+       github: BrightSec/sslscan.cr
    ```
 
 2. Run `shards install`
@@ -35,7 +35,7 @@ report.test # => #<SSLScan::Test ...>
 
 ## Contributing
 
-1. Fork it (<https://github.com/NeuraLegion/sslscan.cr/fork>)
+1. Fork it (<https://github.com/BrightSec/sslscan.cr/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
